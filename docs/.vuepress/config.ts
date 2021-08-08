@@ -1,3 +1,3 @@
 module.exports = {
-  base: "my-studynote",
+  base: "/my-studynote",
 };
