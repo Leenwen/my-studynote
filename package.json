@@ -1,0 +1,14 @@
+{
+  "name": "vue-press-studynote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zeqi Wen <zeqi.wen@shopee.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
