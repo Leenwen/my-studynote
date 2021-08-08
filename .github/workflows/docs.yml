@@ -23,7 +23,7 @@ jobs:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
 
       - name: Build and Deploy Repo
-        uses: JamesIves/github-pages-deploy-action@releases/v3-test
+        uses: crazy-max/ghaction-github-pages@v2
         with:
           BASE_BRANCH: master
           BRANCH: gh-pages
